@@ -22,5 +22,5 @@ store, and the functions it can use to dispatch actions to the store.**
 **mapStateToProps is a function that you would use to provide the store data to your component, whereas mapDispatchToProps is something that you will use to provide the action
 creators as props to your component.**
 
-**createStore(reducer, [preloadedState], [enhancer]) Creates a Redux store that holds the complete state tree of your app. There should only be a single store in your app.
+**createStore(reducer,[preloadedState], [enhancer]) Creates a Redux store that holds the complete state tree of your app. There should only be a single store in your app.
 React provides ref to get a reference to the rendered DOM element.**
